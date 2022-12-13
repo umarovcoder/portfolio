@@ -1,0 +1,98 @@
+.skills{
+    background-color: #000016;
+}
+
+.skills .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.skills .col-left{
+    position: relative;
+    width: 45%;
+}
+
+.skills .col-left .content-title{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.column p {
+    font-size: 20px;
+}
+
+.skills .col-right{
+    position: relative;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills .col-right .bar{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.skills .col-right .bar .info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills .col-right .bar .info img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.skills .info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+// .skills .line{
+//     position: relative;
+//     width: 100%;
+//     height: 15px;
+//     background: #ccc;
+//     border-radius: 2px;
+// }
+
+
+// .skills .line::before{
+//     content: '';
+//     position: absolute;
+//     height: 100%;
+//     top: 0;
+//     left: 0;
+//     border-radius: 2px;
+// }
+
+// .skills .html::before{
+//     width: 95%;
+//     background: #e45126;
+// }
+
+// .skills .css::before{
+//     width: 80%;
+//     background: #0c73b8;
+// }
+
+// .skills .javascript::before{
+//     width: 75%;
+//     background: #e3a324;
+// }
+
+// .skills .react::before{
+//     width: 70%;
+//     background-color: aqua;
+// }
+
+// .skills .redux::before{
+//     width: 65%;
+//     background-color: rgb(112, 17, 201);
+// }

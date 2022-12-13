@@ -1,0 +1,46 @@
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.title p{
+    width: 80%;
+}
+
+.services .content .card{
+    background: #fff;
+    width: 300px;
+    margin: 10px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.services .card .services-icon{
+    color: crimson;
+    font-size: 100px;
+    text-align: center;
+    transition: transform .5s ease;
+}
+
+.services .card .services-icon:hover{
+    transform: translateY(-10px);
+}
+
+.services .card .info{
+    text-align: center;
+}
+
+.services .card .info h3{
+    color: crimson;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
