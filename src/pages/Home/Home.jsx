@@ -12,7 +12,7 @@ import './Home.scss'
 const Home = () => {
     return (
         <div>
-            <ScrollTop/>
+            <ScrollTop />
             <Header />
 
             <section className="main" id="main">
