@@ -3,9 +3,6 @@ import './Contact.scss'
 import SendMessage from './SendMessage'
 
 const Contact = () => {
-
-  
-
   return (
     <section className="contact" id="contact">
       <div data-aos="zoom-in" className="title rever">
@@ -55,7 +52,7 @@ const Contact = () => {
         </div>
 
 
-       <SendMessage/>
+        <SendMessage />
       </div>
     </section>
   )
